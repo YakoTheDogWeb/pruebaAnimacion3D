@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cubo 3D · Scroll</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="animation.js" defer></script>
+</head>
+<body>
+  <main class="scroll-section" id="scroll-section">
+    <div class="scene" id="scene">
+      <div class="cube-position" id="cube-position">
+        <div class="cube" id="cube">
+          <div class="face front"></div>
+          <div class="face back"></div>
+          <div class="face right"></div>
+          <div class="face left"></div>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+        </div>
+      </div>
+      <!-- Los textos se generan desde TEXTS en animation.js -->
+      <div class="text-layer" id="text-layer" aria-hidden="true"></div>
+      <p class="hint">DESLIZA PARA EXPLORAR ↓</p>
+    </div>
+  </main>
+</body>
+</html>
